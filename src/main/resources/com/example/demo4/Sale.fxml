@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="335.0" prefWidth="535.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.OnsaleController">
+   <children>
+      <ImageView fitHeight="113.0" fitWidth="89.0" layoutX="50.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@onsale.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="34.0" layoutY="244.0" prefHeight="17.0" prefWidth="116.0" style="-fx-background-color: #334c5a;" text="    CLASSIC SHOES" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="159.0" layoutY="128.0" prefHeight="17.0" prefWidth="66.0" style="-fx-background-color: black; -fx-border-radius: 40; -fx-background-radius: 60;" text="   Rs 4,000" textFill="WHITE" />
+      <RadioButton layoutX="159.0" layoutY="158.0" mnemonicParsing="false" text="Large" />
+      <RadioButton layoutX="159.0" layoutY="182.0" mnemonicParsing="false" text="Medium" />
+      <RadioButton layoutX="159.0" layoutY="205.0" mnemonicParsing="false" text="Small" />
+      <Button fx:id="buyonsale1" layoutX="166.0" layoutY="232.0" mnemonicParsing="false" onAction="#buyonsale1onAction" prefHeight="25.0" prefWidth="49.0" text="Buy" />
+      <ImageView fitHeight="113.0" fitWidth="96.0" layoutX="286.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@onsale4.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="402.0" layoutY="128.0" prefHeight="17.0" prefWidth="66.0" style="-fx-background-color: black; -fx-border-radius: 40; -fx-background-radius: 60;" text="   Rs 55,000" textFill="WHITE" />
+      <Label layoutX="276.0" layoutY="244.0" prefHeight="17.0" prefWidth="116.0" style="-fx-background-color: #334c5a;" text="          IPHONE X" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="406.0" layoutY="157.0" mnemonicParsing="false" text="Gold" />
+      <RadioButton layoutX="406.0" layoutY="182.0" mnemonicParsing="false" text="Blue" />
+      <RadioButton layoutX="407.0" layoutY="205.0" mnemonicParsing="false" text="Rosegold" />
+      <Button fx:id="buyonsale2" layoutX="406.0" layoutY="231.0" mnemonicParsing="false" onAction="#buyonsale2onAction" prefHeight="26.0" prefWidth="58.0" text="Buy" />
+      <Label layoutX="159.0" layoutY="32.0" prefHeight="58.0" prefWidth="198.0" text="ON SALE SECTION" textFill="#a40b0b">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="192.0" layoutY="100.0" prefHeight="17.0" prefWidth="66.0" style="-fx-background-color: black; -fx-border-radius: 40; -fx-background-radius: 60;" text="   Rs 6,000" textFill="WHITE" />
+      <Label layoutX="420.0" layoutY="93.0" prefHeight="17.0" prefWidth="66.0" style="-fx-background-color: black; -fx-border-radius: 40; -fx-background-radius: 60;" text="   Rs 70,000" textFill="WHITE" />
+      <Line endX="80.0" endY="18.0" layoutX="184.0" layoutY="108.0" startX="7.0" startY="-18.0" stroke="#da0c0c" />
+      <Line endX="80.0" endY="18.0" layoutX="409.0" layoutY="101.0" startX="7.0" startY="-18.0" stroke="#da0c0c" />
+      <Label layoutX="245.0" layoutY="81.0" style="-fx-background-color: #404040; -fx-border-radius: 40; -fx-background-radius: 40;" text="WAS" textFill="WHITE" />
+      <Label layoutX="153.0" layoutY="109.0" style="-fx-background-color: #404040; -fx-border-radius: 40; -fx-background-radius: 40;" text="NOW" textFill="WHITE" />
+      <Label layoutX="452.0" layoutY="75.0" style="-fx-background-color: #404040; -fx-border-radius: 40; -fx-background-radius: 40;" text="WAS" textFill="WHITE" />
+      <Label layoutX="389.0" layoutY="109.0" style="-fx-background-color: #404040; -fx-border-radius: 40; -fx-background-radius: 40;" text="NOW" textFill="WHITE" />
+   </children>
+</AnchorPane>

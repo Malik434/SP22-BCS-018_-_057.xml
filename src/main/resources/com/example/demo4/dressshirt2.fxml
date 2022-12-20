@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #404040;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.dressshirt2Controller">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="91.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@mens4.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="143.0" layoutY="23.0" prefHeight="52.0" prefWidth="329.0" text="Following are the details for your order :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="261.0" layoutY="121.0" prefHeight="39.0" prefWidth="211.0" text="Name :  Mens Overcoat" textFill="#f5f4f4">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="261.0" layoutY="161.0" prefHeight="39.0" prefWidth="211.0" text="Price  :  Rs 6,000" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="address" layoutX="229.0" layoutY="264.0" prefHeight="25.0" prefWidth="275.0" />
+      <Label layoutX="143.0" layoutY="268.0" prefHeight="17.0" prefWidth="74.0" text="   Address:" textFill="#eeecec">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="174.0" layoutY="310.0" prefHeight="39.0" prefWidth="199.0" textFill="#f2eded" />
+      <Button fx:id="Okbutton" layoutX="514.0" layoutY="264.0" mnemonicParsing="false" onAction="#OkbuttonOnAction" prefHeight="25.0" prefWidth="37.0" text="Ok" />
+      <Button fx:id="Exitbutton" layoutX="514.0" layoutY="298.0" mnemonicParsing="false" onAction="#ExitbuttonOnaction" prefHeight="25.0" prefWidth="37.0" text="Exit" />
+      <Label fx:id="CompletionLabel" layoutX="197.0" layoutY="297.0" prefHeight="52.0" prefWidth="275.0" textFill="#f2f0f0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

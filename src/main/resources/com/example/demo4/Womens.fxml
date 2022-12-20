@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="335.0" prefWidth="535.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.WomensController">
+   <children>
+      <ImageView fitHeight="113.0" fitWidth="89.0" layoutX="50.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@womens1.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="34.0" layoutY="244.0" prefHeight="17.0" prefWidth="116.0" style="-fx-background-color: #334c5a;" text="Womens long shirt" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="159.0" layoutY="128.0" prefHeight="17.0" prefWidth="66.0" style="-fx-background-color: black; -fx-border-radius: 40; -fx-background-radius: 60;" text="   Rs 2,000" textFill="WHITE" />
+      <RadioButton layoutX="159.0" layoutY="158.0" mnemonicParsing="false" text="Large" />
+      <RadioButton layoutX="159.0" layoutY="182.0" mnemonicParsing="false" text="Medium" />
+      <RadioButton layoutX="159.0" layoutY="205.0" mnemonicParsing="false" text="Small" />
+      <Button fx:id="buykwomens1" layoutX="166.0" layoutY="232.0" mnemonicParsing="false" onAction="#buywomen1onAction" prefHeight="25.0" prefWidth="49.0" text="Buy" />
+      <ImageView fitHeight="58.0" fitWidth="96.0" layoutX="283.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@womens4.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="402.0" layoutY="128.0" prefHeight="17.0" prefWidth="66.0" style="-fx-background-color: black; -fx-border-radius: 40; -fx-background-radius: 60;" text="   Rs4,500" textFill="WHITE" />
+      <Label layoutX="273.0" layoutY="244.0" prefHeight="17.0" prefWidth="116.0" style="-fx-background-color: #334c5a;" text="Womens Shoes" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="406.0" layoutY="157.0" mnemonicParsing="false" text="Large" />
+      <RadioButton layoutX="406.0" layoutY="182.0" mnemonicParsing="false" text="Medium" />
+      <RadioButton layoutX="407.0" layoutY="205.0" mnemonicParsing="false" text="Small" />
+      <Button fx:id="buywomens2" layoutX="406.0" layoutY="231.0" mnemonicParsing="false" onAction="#buywomens2onAction" prefHeight="26.0" prefWidth="58.0" text="Buy" />
+      <Label layoutX="150.0" layoutY="32.0" prefHeight="58.0" prefWidth="181.0" text="WOMENS SECTION" textFill="#a40b0b">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="563.0" prefWidth="600.0" style="-fx-background-color: #404040;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.SignupController">
+   <children>
+      <AnchorPane layoutX="121.0" layoutY="80.0" prefHeight="451.0" prefWidth="358.0" style="-fx-background-color: #232828;">
+         <children>
+            <Label prefHeight="57.0" prefWidth="358.0" style="-fx-alignment: center; -fx-background-color: #798B8B;" text="SIGN UP" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="31.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="63.0" prefHeight="17.0" prefWidth="68.0" text="First Name " textFill="#fffefe" />
+            <TextField fx:id="firstnametextfield" layoutX="49.0" layoutY="86.0" prefHeight="25.0" prefWidth="206.0" />
+            <Label layoutX="42.0" layoutY="119.0" prefHeight="17.0" prefWidth="68.0" text="Last Name" textFill="#fffefe" />
+            <TextField fx:id="lastnametextfield" layoutX="51.0" layoutY="142.0" prefHeight="25.0" prefWidth="206.0" />
+            <Label layoutX="42.0" layoutY="177.0" prefHeight="17.0" prefWidth="68.0" text="Username" textFill="#fffefe" />
+            <TextField fx:id="usernametextfield" layoutX="51.0" layoutY="200.0" prefHeight="25.0" prefWidth="206.0" />
+            <Label layoutX="42.0" layoutY="232.0" prefHeight="17.0" prefWidth="68.0" text="Password" textFill="#fffefe" />
+            <Label layoutX="42.0" layoutY="290.0" prefHeight="17.0" prefWidth="100.0" text="Confirm Password" textFill="#fffefe" />
+            <PasswordField fx:id="passwordtextfield" layoutX="49.0" layoutY="258.0" prefHeight="25.0" prefWidth="206.0" />
+            <PasswordField fx:id="confirmpasswordtextfield" layoutX="49.0" layoutY="316.0" prefHeight="25.0" prefWidth="206.0" />
+            <Button fx:id="signupbutton" layoutX="51.0" layoutY="385.0" mnemonicParsing="false" onAction="#signupbuttononAction" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: #a49595; -fx-background-radius: 60;" text="SIGN UP">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <RadioButton fx:id="termsandpolicies" layoutX="49.0" layoutY="350.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="219.0" text="Accept the term &amp; policies" textFill="#fcfcfc" />
+            <Button fx:id="exitbutton" layoutX="159.0" layoutY="383.0" mnemonicParsing="false" onAction="#exitbuttonOnAction" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: #a49595; -fx-background-radius: 60;" text="Exit">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Label fx:id="signupbuttonlabel" layoutX="4.0" layoutY="410.0" prefHeight="35.0" prefWidth="349.0" textFill="#fcfcfc">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Label fx:id="wrongpasswordlabel" layoutX="98.0" layoutY="232.0" prefHeight="17.0" prefWidth="189.0" textFill="#e81414" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="173.0" prefHeight="63.0" prefWidth="100.0" text="Aztec" textFill="#fffefe">
+         <font>
+            <Font name="Impact" size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="261.0" layoutY="55.0" prefHeight="17.0" prefWidth="138.0" text="&quot;BE ONLINE NOT IN LINE&quot;" textFill="#f8f8f8" />
+   </children>
+</AnchorPane>
